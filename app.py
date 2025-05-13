@@ -18,15 +18,16 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S'
 )
 
-# Sample words (all 5-letter Latvian words)
+# Sample words (variable lengths)
 WORDS = [
-    'KALNS', 'LAPAS', 'ZIRGS', 'SIRDS', 'KRĀSA', 'MĀJAS', 'SVECE', 'ZĀLES',
-    'BILDE', 'SKOLA', 'DRAUG', 'LAIVA', 'SĀKUM', 'RIEPA', 'SĀLĪT'
+    'KĀRLIS', 'GRIETA', 'VITA', 'GUSTAVS', 'TĒTIS', 'MAMMA', 'BRĀLIS', 'MĀSA', 'LAPSAS', 'ZAĶI'
 ]
 
 def init_game(reset_lives=False, reset_score=False):
     """Initialize or reset game state. If reset_lives is True, set lives to 5. If reset_score is True, set score to 0."""
-    session['current_word'] = random.choice(WORDS)
+    word = random.choice(WORDS)
+    session['current_word'] = word
+    session['word_length'] = len(word)
     session['current_row'] = 0
     if reset_lives or 'lives' not in session:
         session['lives'] = 5
@@ -53,16 +54,17 @@ def home():
 def make_guess():
     """Process a guess"""
     guess = request.form.get('guess', '').upper()
+    word_length = session['word_length']
     
-    # Stricter check: must be exactly 5 letters, all alphabetic
-    if len(guess) != 5 or not guess.isalpha():
-        flash('Lūdzu ievadiet tieši 5 burtus!')
+    # Stricter check: must be exactly word_length letters, all alphabetic
+    if len(guess) != word_length or not guess.isalpha():
+        flash(f'Lūdzu ievadiet tieši {word_length} burtus!')
         logging.info(f"Invalid guess attempted: {guess}")
         return redirect(url_for('home'))
     
     current_word = session['current_word']
-    # SAFETY: If current_word is not 5 letters, re-init game
-    if len(current_word) != 5:
+    # SAFETY: If current_word is not word_length letters, re-init game
+    if len(current_word) != word_length:
         flash('Kļūda ar vārdu. Sākam jaunu spēli!')
         logging.error(f"Invalid word length in session: {current_word}")
         init_game()
@@ -81,21 +83,21 @@ def make_guess():
     # --- Improved Lingo/Wordle-style evaluation ---
     answer = list(current_word)
     guess_letters = list(guess)
-    result = [None] * 5
-    answer_used = [False] * 5
+    result = [None] * word_length
+    answer_used = [False] * word_length
 
     # First pass: mark greens
-    for i in range(5):
+    for i in range(word_length):
         if guess_letters[i] == answer[i]:
             result[i] = {'letter': guess_letters[i], 'status': 'correct'}
             answer_used[i] = True
         
     # Second pass: mark yellows and grays
-    for i in range(5):
+    for i in range(word_length):
         if result[i] is not None:
             continue
         found = False
-        for j in range(5):
+        for j in range(word_length):
             if not answer_used[j] and guess_letters[i] == answer[j]:
                 found = True
                 answer_used[j] = True
@@ -118,7 +120,7 @@ def make_guess():
     
     # Check win condition
     if guess == current_word:
-        score += (5 - current_row) * 100
+        score += (word_length - current_row) * 100
         session['score'] = score
         session['won'] = True
         session['words_guessed'] = words_guessed + 1
