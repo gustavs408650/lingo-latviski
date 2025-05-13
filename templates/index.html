@@ -26,7 +26,7 @@
         <div id="game-board">
             {% for row in range(5) %}
                 <div class="game-row">
-                    {% for col in range(5) %}
+                    {% for col in range(session.word_length) %}
                         <div class="letter-box
                             {% if row < session.current_row %}
                                 {% if session['won'] and row == session.current_row - 1 %}
@@ -79,9 +79,11 @@
             </div>
         {% elif session.current_row < 5 and session.lives > 0 %}
             <form action="{{ url_for('make_guess') }}" method="post" class="input-section">
-                <input type="text" name="guess" maxlength="5" placeholder="Ievadiet vārdu..." required
-                       pattern="[A-Za-zĀāČčĒēĢģĪīĶķĻļŅņŠšŪūŽž]{5}"
-                       title="Lūdzu ievadiet 5 burtus">
+                <input type="text" name="guess"
+                       maxlength="{{ session.word_length }}"
+                       placeholder="Ievadiet {{ session.word_length }} burtus..." required
+                       pattern="[A-Za-zĀāČčĒēĢģĪīĶķĻļŅņŠšŪūŽž]{{ session.word_length }}"
+                       title="Lūdzu ievadiet tieši {{ session.word_length }} burtus">
                 <button type="submit">Mēģināt</button>
             </form>
         {% endif %}
