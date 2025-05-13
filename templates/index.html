@@ -82,7 +82,7 @@
                 <input type="text" name="guess"
                        maxlength="{{ session.word_length }}"
                        placeholder="Ievadiet {{ session.word_length }} burtus..." required
-                       pattern="[A-Za-zĀāČčĒēĢģĪīĶķĻļŅņŠšŪūŽž]{{ session.word_length }}"
+                       pattern="[A-Za-zĀāČčĒēĢģĪīĶķĻļŅņŠšŪūŽž]{{'{'}}{{ session.word_length }}{{'}'}}"
                        title="Lūdzu ievadiet tieši {{ session.word_length }} burtus">
                 <button type="submit">Mēģināt</button>
             </form>
