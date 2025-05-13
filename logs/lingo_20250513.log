@@ -1,0 +1,460 @@
+2025-05-13 15:39:45 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 15:39:45 - [33mPress CTRL+C to quit[0m
+2025-05-13 15:39:45 -  * Restarting with stat
+2025-05-13 15:39:46 -  * Debugger is active!
+2025-05-13 15:39:46 -  * Debugger PIN: 743-301-163
+2025-05-13 15:40:06 -  * Detected change in '/Users/gustavsgalindoms/Documents/citi/lingo/app.py', reloading
+2025-05-13 15:40:06 -  * Restarting with stat
+2025-05-13 15:40:06 -  * Debugger is active!
+2025-05-13 15:40:06 -  * Debugger PIN: 743-301-163
+2025-05-13 15:40:13 - 127.0.0.1 - - [13/May/2025 15:40:13] "GET / HTTP/1.1" 200 -
+2025-05-13 15:40:13 - 127.0.0.1 - - [13/May/2025 15:40:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:40:16 - Guess #1: MAIZE (Word: MĀJAS)
+2025-05-13 15:40:16 - Result: [{'letter': 'M', 'status': 'correct'}, {'letter': 'A', 'status': 'wrong-position'}, {'letter': 'I', 'status': 'incorrect'}, {'letter': 'Z', 'status': 'incorrect'}, {'letter': 'E', 'status': 'incorrect'}]
+2025-05-13 15:40:16 - 127.0.0.1 - - [13/May/2025 15:40:16] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:40:16 - 127.0.0.1 - - [13/May/2025 15:40:16] "GET / HTTP/1.1" 200 -
+2025-05-13 15:40:16 - 127.0.0.1 - - [13/May/2025 15:40:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:40:25 - Guess #2: MUGUL (Word: MĀJAS)
+2025-05-13 15:40:25 - Result: [{'letter': 'M', 'status': 'correct'}, {'letter': 'U', 'status': 'incorrect'}, {'letter': 'G', 'status': 'incorrect'}, {'letter': 'U', 'status': 'incorrect'}, {'letter': 'L', 'status': 'incorrect'}]
+2025-05-13 15:40:25 - 127.0.0.1 - - [13/May/2025 15:40:25] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:40:25 - 127.0.0.1 - - [13/May/2025 15:40:25] "GET / HTTP/1.1" 200 -
+2025-05-13 15:40:25 - 127.0.0.1 - - [13/May/2025 15:40:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:40:29 - Guess #3: MIGEL (Word: MĀJAS)
+2025-05-13 15:40:29 - Result: [{'letter': 'M', 'status': 'correct'}, {'letter': 'I', 'status': 'incorrect'}, {'letter': 'G', 'status': 'incorrect'}, {'letter': 'E', 'status': 'incorrect'}, {'letter': 'L', 'status': 'incorrect'}]
+2025-05-13 15:40:29 - 127.0.0.1 - - [13/May/2025 15:40:29] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:40:29 - 127.0.0.1 - - [13/May/2025 15:40:29] "GET / HTTP/1.1" 200 -
+2025-05-13 15:40:29 - 127.0.0.1 - - [13/May/2025 15:40:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:40:33 - Guess #4: MUUEE (Word: MĀJAS)
+2025-05-13 15:40:33 - Result: [{'letter': 'M', 'status': 'correct'}, {'letter': 'U', 'status': 'incorrect'}, {'letter': 'U', 'status': 'incorrect'}, {'letter': 'E', 'status': 'incorrect'}, {'letter': 'E', 'status': 'incorrect'}]
+2025-05-13 15:40:33 - 127.0.0.1 - - [13/May/2025 15:40:33] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:40:33 - 127.0.0.1 - - [13/May/2025 15:40:33] "GET / HTTP/1.1" 200 -
+2025-05-13 15:40:33 - 127.0.0.1 - - [13/May/2025 15:40:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:40:38 - Guess #5: XXĀŽČ (Word: MĀJAS)
+2025-05-13 15:40:38 - Result: [{'letter': 'X', 'status': 'incorrect'}, {'letter': 'X', 'status': 'incorrect'}, {'letter': 'Ā', 'status': 'wrong-position'}, {'letter': 'Ž', 'status': 'incorrect'}, {'letter': 'Č', 'status': 'incorrect'}]
+2025-05-13 15:40:38 - Round lost. Lives remaining: 2
+2025-05-13 15:40:38 - New game started. Word: DRAUG
+2025-05-13 15:40:38 - 127.0.0.1 - - [13/May/2025 15:40:38] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:40:38 - 127.0.0.1 - - [13/May/2025 15:40:38] "GET / HTTP/1.1" 200 -
+2025-05-13 15:40:38 - 127.0.0.1 - - [13/May/2025 15:40:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:41:14 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 15:41:14 - [33mPress CTRL+C to quit[0m
+2025-05-13 15:41:14 -  * Restarting with stat
+2025-05-13 15:41:15 -  * Debugger is active!
+2025-05-13 15:41:15 -  * Debugger PIN: 743-301-163
+2025-05-13 15:41:24 - 127.0.0.1 - - [13/May/2025 15:41:24] "GET / HTTP/1.1" 200 -
+2025-05-13 15:41:24 - 127.0.0.1 - - [13/May/2025 15:41:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:41:49 - Guess #1: DARBS (Word: DRAUG)
+2025-05-13 15:41:49 - Result: [{'letter': 'D', 'status': 'correct'}, {'letter': 'A', 'status': 'wrong-position'}, {'letter': 'R', 'status': 'wrong-position'}, {'letter': 'B', 'status': 'incorrect'}, {'letter': 'S', 'status': 'incorrect'}]
+2025-05-13 15:41:49 - 127.0.0.1 - - [13/May/2025 15:41:49] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:41:49 - 127.0.0.1 - - [13/May/2025 15:41:49] "GET / HTTP/1.1" 200 -
+2025-05-13 15:41:49 - 127.0.0.1 - - [13/May/2025 15:41:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:42:12 - Guess #2: DRAUG (Word: DRAUG)
+2025-05-13 15:42:12 - Result: [{'letter': 'D', 'status': 'correct'}, {'letter': 'R', 'status': 'correct'}, {'letter': 'A', 'status': 'correct'}, {'letter': 'U', 'status': 'correct'}, {'letter': 'G', 'status': 'correct'}]
+2025-05-13 15:42:12 - Game won! Score: 400
+2025-05-13 15:42:12 - New game started. Word: MĀJAS
+2025-05-13 15:42:12 - 127.0.0.1 - - [13/May/2025 15:42:12] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:42:12 - 127.0.0.1 - - [13/May/2025 15:42:12] "GET / HTTP/1.1" 200 -
+2025-05-13 15:42:12 - 127.0.0.1 - - [13/May/2025 15:42:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:44:04 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 15:44:04 - [33mPress CTRL+C to quit[0m
+2025-05-13 15:44:04 -  * Restarting with stat
+2025-05-13 15:44:04 -  * Debugger is active!
+2025-05-13 15:44:04 -  * Debugger PIN: 743-301-163
+2025-05-13 15:44:16 - 127.0.0.1 - - [13/May/2025 15:44:16] "GET / HTTP/1.1" 200 -
+2025-05-13 15:44:16 - 127.0.0.1 - - [13/May/2025 15:44:16] "GET /static/styles.css HTTP/1.1" 200 -
+2025-05-13 15:44:19 - Guess #1: MAIZE (Word: MĀJAS)
+2025-05-13 15:44:19 - Result: [{'letter': 'M', 'status': 'correct'}, {'letter': 'A', 'status': 'wrong-position'}, {'letter': 'I', 'status': 'incorrect'}, {'letter': 'Z', 'status': 'incorrect'}, {'letter': 'E', 'status': 'incorrect'}]
+2025-05-13 15:44:19 - 127.0.0.1 - - [13/May/2025 15:44:19] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:44:19 - 127.0.0.1 - - [13/May/2025 15:44:19] "GET / HTTP/1.1" 200 -
+2025-05-13 15:44:19 - 127.0.0.1 - - [13/May/2025 15:44:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:44:22 - Guess #2: MAMMA (Word: MĀJAS)
+2025-05-13 15:44:22 - Result: [{'letter': 'M', 'status': 'correct'}, {'letter': 'A', 'status': 'wrong-position'}, {'letter': 'M', 'status': 'wrong-position'}, {'letter': 'M', 'status': 'wrong-position'}, {'letter': 'A', 'status': 'wrong-position'}]
+2025-05-13 15:44:22 - 127.0.0.1 - - [13/May/2025 15:44:22] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:44:22 - 127.0.0.1 - - [13/May/2025 15:44:22] "GET / HTTP/1.1" 200 -
+2025-05-13 15:44:22 - 127.0.0.1 - - [13/May/2025 15:44:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:49:12 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 15:49:12 - [33mPress CTRL+C to quit[0m
+2025-05-13 15:49:12 -  * Restarting with stat
+2025-05-13 15:49:12 -  * Debugger is active!
+2025-05-13 15:49:13 -  * Debugger PIN: 743-301-163
+2025-05-13 15:49:20 - 127.0.0.1 - - [13/May/2025 15:49:20] "GET / HTTP/1.1" 200 -
+2025-05-13 15:49:20 - 127.0.0.1 - - [13/May/2025 15:49:20] "GET /static/styles.css HTTP/1.1" 200 -
+2025-05-13 15:49:34 - Guess #3: MAMMA (Word: MĀJAS)
+2025-05-13 15:49:34 - Result: [{'letter': 'M', 'status': 'correct'}, {'letter': 'A', 'status': 'wrong-position'}, {'letter': 'M', 'status': 'incorrect'}, {'letter': 'M', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}]
+2025-05-13 15:49:34 - 127.0.0.1 - - [13/May/2025 15:49:34] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:49:34 - 127.0.0.1 - - [13/May/2025 15:49:34] "GET / HTTP/1.1" 200 -
+2025-05-13 15:49:34 - 127.0.0.1 - - [13/May/2025 15:49:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:49:37 - Guess #4: MĀJAS (Word: MĀJAS)
+2025-05-13 15:49:37 - Result: [{'letter': 'M', 'status': 'correct'}, {'letter': 'Ā', 'status': 'correct'}, {'letter': 'J', 'status': 'correct'}, {'letter': 'A', 'status': 'correct'}, {'letter': 'S', 'status': 'correct'}]
+2025-05-13 15:49:37 - Game won! Score: 200
+2025-05-13 15:49:37 - New game started. Word: SIRDS
+2025-05-13 15:49:37 - 127.0.0.1 - - [13/May/2025 15:49:37] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:49:37 - 127.0.0.1 - - [13/May/2025 15:49:37] "GET / HTTP/1.1" 200 -
+2025-05-13 15:49:37 - 127.0.0.1 - - [13/May/2025 15:49:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:50:47 -  * Detected change in '/Users/gustavsgalindoms/Documents/citi/lingo/app.py', reloading
+2025-05-13 15:50:47 -  * Restarting with stat
+2025-05-13 15:50:47 -  * Debugger is active!
+2025-05-13 15:50:47 -  * Debugger PIN: 743-301-163
+2025-05-13 15:51:41 -  * Detected change in '/Users/gustavsgalindoms/Documents/citi/lingo/app.py', reloading
+2025-05-13 15:51:41 -  * Restarting with stat
+2025-05-13 15:51:41 -  * Debugger is active!
+2025-05-13 15:51:41 -  * Debugger PIN: 743-301-163
+2025-05-13 15:51:47 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 15:51:47 - [33mPress CTRL+C to quit[0m
+2025-05-13 15:51:47 -  * Restarting with stat
+2025-05-13 15:51:47 -  * Debugger is active!
+2025-05-13 15:51:47 -  * Debugger PIN: 743-301-163
+2025-05-13 15:51:59 - 127.0.0.1 - - [13/May/2025 15:51:59] "GET / HTTP/1.1" 200 -
+2025-05-13 15:51:59 - 127.0.0.1 - - [13/May/2025 15:51:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:52:02 - Guess #1: SIERS (Word: SIRDS)
+2025-05-13 15:52:02 - Result: [{'letter': 'S', 'status': 'correct'}, {'letter': 'I', 'status': 'correct'}, {'letter': 'E', 'status': 'incorrect'}, {'letter': 'R', 'status': 'wrong-position'}, {'letter': 'S', 'status': 'correct'}]
+2025-05-13 15:52:02 - 127.0.0.1 - - [13/May/2025 15:52:02] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:52:02 - 127.0.0.1 - - [13/May/2025 15:52:02] "GET / HTTP/1.1" 200 -
+2025-05-13 15:52:02 - 127.0.0.1 - - [13/May/2025 15:52:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:52:16 - Guess #2: SIRDS (Word: SIRDS)
+2025-05-13 15:52:16 - Result: [{'letter': 'S', 'status': 'correct'}, {'letter': 'I', 'status': 'correct'}, {'letter': 'R', 'status': 'correct'}, {'letter': 'D', 'status': 'correct'}, {'letter': 'S', 'status': 'correct'}]
+2025-05-13 15:52:16 - Game won! Score: 400
+2025-05-13 15:52:16 - 127.0.0.1 - - [13/May/2025 15:52:16] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:52:16 - 127.0.0.1 - - [13/May/2025 15:52:16] "GET / HTTP/1.1" 200 -
+2025-05-13 15:52:16 - 127.0.0.1 - - [13/May/2025 15:52:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:52:19 - New game started. Word: LAPAS
+2025-05-13 15:52:19 - 127.0.0.1 - - [13/May/2025 15:52:19] "[32mGET /next-game HTTP/1.1[0m" 302 -
+2025-05-13 15:52:19 - 127.0.0.1 - - [13/May/2025 15:52:19] "GET / HTTP/1.1" 200 -
+2025-05-13 15:52:19 - 127.0.0.1 - - [13/May/2025 15:52:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:53:55 -  * Detected change in '/Users/gustavsgalindoms/Documents/citi/lingo/app.py', reloading
+2025-05-13 15:53:55 -  * Restarting with stat
+2025-05-13 15:53:55 -  * Debugger is active!
+2025-05-13 15:53:55 -  * Debugger PIN: 743-301-163
+2025-05-13 15:54:16 -  * Detected change in '/Users/gustavsgalindoms/Documents/citi/lingo/app.py', reloading
+2025-05-13 15:54:16 -  * Restarting with stat
+2025-05-13 15:54:17 -  * Debugger is active!
+2025-05-13 15:54:17 -  * Debugger PIN: 743-301-163
+2025-05-13 15:54:19 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 15:54:19 - [33mPress CTRL+C to quit[0m
+2025-05-13 15:54:19 -  * Restarting with stat
+2025-05-13 15:54:19 -  * Debugger is active!
+2025-05-13 15:54:19 -  * Debugger PIN: 743-301-163
+2025-05-13 15:54:26 - Guess #1: LINGO (Word: LAPAS)
+2025-05-13 15:54:26 - Result: [{'letter': 'L', 'status': 'correct'}, {'letter': 'I', 'status': 'incorrect'}, {'letter': 'N', 'status': 'incorrect'}, {'letter': 'G', 'status': 'incorrect'}, {'letter': 'O', 'status': 'incorrect'}]
+2025-05-13 15:54:26 - 127.0.0.1 - - [13/May/2025 15:54:26] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:54:26 - 127.0.0.1 - - [13/May/2025 15:54:26] "GET / HTTP/1.1" 200 -
+2025-05-13 15:54:26 - 127.0.0.1 - - [13/May/2025 15:54:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:54:29 - Guess #2: LAURA (Word: LAPAS)
+2025-05-13 15:54:29 - Result: [{'letter': 'L', 'status': 'correct'}, {'letter': 'A', 'status': 'correct'}, {'letter': 'U', 'status': 'incorrect'}, {'letter': 'R', 'status': 'incorrect'}, {'letter': 'A', 'status': 'wrong-position'}]
+2025-05-13 15:54:29 - 127.0.0.1 - - [13/May/2025 15:54:29] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:54:29 - 127.0.0.1 - - [13/May/2025 15:54:29] "GET / HTTP/1.1" 200 -
+2025-05-13 15:54:29 - 127.0.0.1 - - [13/May/2025 15:54:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:54:47 - Guess #3: LAPAS (Word: LAPAS)
+2025-05-13 15:54:47 - Result: [{'letter': 'L', 'status': 'correct'}, {'letter': 'A', 'status': 'correct'}, {'letter': 'P', 'status': 'correct'}, {'letter': 'A', 'status': 'correct'}, {'letter': 'S', 'status': 'correct'}]
+2025-05-13 15:54:47 - Game won! Score: 300
+2025-05-13 15:54:47 - 127.0.0.1 - - [13/May/2025 15:54:47] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:54:47 - 127.0.0.1 - - [13/May/2025 15:54:47] "GET / HTTP/1.1" 200 -
+2025-05-13 15:54:47 - 127.0.0.1 - - [13/May/2025 15:54:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:54:49 - New game started. Word: KRĀSA
+2025-05-13 15:54:49 - 127.0.0.1 - - [13/May/2025 15:54:49] "[32mGET /next-game HTTP/1.1[0m" 302 -
+2025-05-13 15:54:49 - 127.0.0.1 - - [13/May/2025 15:54:49] "GET / HTTP/1.1" 200 -
+2025-05-13 15:54:49 - 127.0.0.1 - - [13/May/2025 15:54:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:54:52 - Guess #1: KABEL (Word: KRĀSA)
+2025-05-13 15:54:52 - Result: [{'letter': 'K', 'status': 'correct'}, {'letter': 'A', 'status': 'wrong-position'}, {'letter': 'B', 'status': 'incorrect'}, {'letter': 'E', 'status': 'incorrect'}, {'letter': 'L', 'status': 'incorrect'}]
+2025-05-13 15:54:52 - 127.0.0.1 - - [13/May/2025 15:54:52] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:54:52 - 127.0.0.1 - - [13/May/2025 15:54:52] "GET / HTTP/1.1" 200 -
+2025-05-13 15:54:52 - 127.0.0.1 - - [13/May/2025 15:54:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:54:56 - Guess #2: IIIII (Word: KRĀSA)
+2025-05-13 15:54:56 - Result: [{'letter': 'I', 'status': 'incorrect'}, {'letter': 'I', 'status': 'incorrect'}, {'letter': 'I', 'status': 'incorrect'}, {'letter': 'I', 'status': 'incorrect'}, {'letter': 'I', 'status': 'incorrect'}]
+2025-05-13 15:54:56 - 127.0.0.1 - - [13/May/2025 15:54:56] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:54:56 - 127.0.0.1 - - [13/May/2025 15:54:56] "GET / HTTP/1.1" 200 -
+2025-05-13 15:54:56 - 127.0.0.1 - - [13/May/2025 15:54:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:54:58 - Guess #3: AAAAA (Word: KRĀSA)
+2025-05-13 15:54:58 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'correct'}]
+2025-05-13 15:54:58 - 127.0.0.1 - - [13/May/2025 15:54:58] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:54:58 - 127.0.0.1 - - [13/May/2025 15:54:58] "GET / HTTP/1.1" 200 -
+2025-05-13 15:54:58 - 127.0.0.1 - - [13/May/2025 15:54:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:55:00 - Guess #4: SSSSS (Word: KRĀSA)
+2025-05-13 15:55:00 - Result: [{'letter': 'S', 'status': 'incorrect'}, {'letter': 'S', 'status': 'incorrect'}, {'letter': 'S', 'status': 'incorrect'}, {'letter': 'S', 'status': 'correct'}, {'letter': 'S', 'status': 'incorrect'}]
+2025-05-13 15:55:00 - 127.0.0.1 - - [13/May/2025 15:55:00] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:55:00 - 127.0.0.1 - - [13/May/2025 15:55:00] "GET / HTTP/1.1" 200 -
+2025-05-13 15:55:00 - 127.0.0.1 - - [13/May/2025 15:55:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:55:03 - Guess #5: KRAPS (Word: KRĀSA)
+2025-05-13 15:55:03 - Result: [{'letter': 'K', 'status': 'correct'}, {'letter': 'R', 'status': 'correct'}, {'letter': 'A', 'status': 'wrong-position'}, {'letter': 'P', 'status': 'incorrect'}, {'letter': 'S', 'status': 'wrong-position'}]
+2025-05-13 15:55:03 - Round lost. Lives remaining: 2
+2025-05-13 15:55:03 - New game started. Word: MĀJAS
+2025-05-13 15:55:03 - 127.0.0.1 - - [13/May/2025 15:55:03] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:55:03 - 127.0.0.1 - - [13/May/2025 15:55:03] "GET / HTTP/1.1" 200 -
+2025-05-13 15:55:03 - 127.0.0.1 - - [13/May/2025 15:55:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:55:43 - Guess #1: MAMMA (Word: MĀJAS)
+2025-05-13 15:55:43 - Result: [{'letter': 'M', 'status': 'correct'}, {'letter': 'A', 'status': 'wrong-position'}, {'letter': 'M', 'status': 'incorrect'}, {'letter': 'M', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}]
+2025-05-13 15:55:43 - 127.0.0.1 - - [13/May/2025 15:55:43] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:55:43 - 127.0.0.1 - - [13/May/2025 15:55:43] "GET / HTTP/1.1" 200 -
+2025-05-13 15:55:43 - 127.0.0.1 - - [13/May/2025 15:55:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:55:46 - Guess #2: MILZE (Word: MĀJAS)
+2025-05-13 15:55:46 - Result: [{'letter': 'M', 'status': 'correct'}, {'letter': 'I', 'status': 'incorrect'}, {'letter': 'L', 'status': 'incorrect'}, {'letter': 'Z', 'status': 'incorrect'}, {'letter': 'E', 'status': 'incorrect'}]
+2025-05-13 15:55:46 - 127.0.0.1 - - [13/May/2025 15:55:46] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 15:55:46 - 127.0.0.1 - - [13/May/2025 15:55:46] "GET / HTTP/1.1" 200 -
+2025-05-13 15:55:46 - 127.0.0.1 - - [13/May/2025 15:55:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 15:56:30 -  * Detected change in '/Users/gustavsgalindoms/Documents/citi/lingo/app.py', reloading
+2025-05-13 15:56:30 -  * Restarting with stat
+2025-05-13 15:56:30 -  * Debugger is active!
+2025-05-13 15:56:31 -  * Debugger PIN: 743-301-163
+2025-05-13 15:58:08 -  * Detected change in '/Users/gustavsgalindoms/Documents/citi/lingo/app.py', reloading
+2025-05-13 15:58:08 -  * Restarting with stat
+2025-05-13 15:58:08 -  * Debugger is active!
+2025-05-13 15:58:08 -  * Debugger PIN: 743-301-163
+2025-05-13 15:59:12 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 15:59:12 - [33mPress CTRL+C to quit[0m
+2025-05-13 15:59:12 -  * Restarting with stat
+2025-05-13 15:59:12 -  * Debugger is active!
+2025-05-13 15:59:12 -  * Debugger PIN: 743-301-163
+2025-05-13 16:00:13 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 16:00:13 - [33mPress CTRL+C to quit[0m
+2025-05-13 16:00:13 -  * Restarting with stat
+2025-05-13 16:00:13 -  * Debugger is active!
+2025-05-13 16:00:13 -  * Debugger PIN: 743-301-163
+2025-05-13 16:00:17 - 127.0.0.1 - - [13/May/2025 16:00:17] "GET / HTTP/1.1" 200 -
+2025-05-13 16:00:17 - 127.0.0.1 - - [13/May/2025 16:00:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:00:20 - Guess #3: AAAAA (Word: MĀJAS)
+2025-05-13 16:00:20 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'correct'}, {'letter': 'A', 'status': 'incorrect'}]
+2025-05-13 16:00:20 - 127.0.0.1 - - [13/May/2025 16:00:20] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:00:20 - 127.0.0.1 - - [13/May/2025 16:00:20] "GET / HTTP/1.1" 200 -
+2025-05-13 16:00:20 - 127.0.0.1 - - [13/May/2025 16:00:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:00:22 - Guess #4: BBBBB (Word: MĀJAS)
+2025-05-13 16:00:22 - Result: [{'letter': 'B', 'status': 'incorrect'}, {'letter': 'B', 'status': 'incorrect'}, {'letter': 'B', 'status': 'incorrect'}, {'letter': 'B', 'status': 'incorrect'}, {'letter': 'B', 'status': 'incorrect'}]
+2025-05-13 16:00:22 - 127.0.0.1 - - [13/May/2025 16:00:22] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:00:22 - 127.0.0.1 - - [13/May/2025 16:00:22] "GET / HTTP/1.1" 200 -
+2025-05-13 16:00:22 - 127.0.0.1 - - [13/May/2025 16:00:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:00:24 - Guess #5: CCCCC (Word: MĀJAS)
+2025-05-13 16:00:24 - Result: [{'letter': 'C', 'status': 'incorrect'}, {'letter': 'C', 'status': 'incorrect'}, {'letter': 'C', 'status': 'incorrect'}, {'letter': 'C', 'status': 'incorrect'}, {'letter': 'C', 'status': 'incorrect'}]
+2025-05-13 16:00:24 - Round lost. Lives remaining: 1
+2025-05-13 16:00:24 - 127.0.0.1 - - [13/May/2025 16:00:24] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:00:24 - 127.0.0.1 - - [13/May/2025 16:00:24] "GET / HTTP/1.1" 200 -
+2025-05-13 16:00:24 - 127.0.0.1 - - [13/May/2025 16:00:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:00:27 - New game started. Word: SĀKUM
+2025-05-13 16:00:27 - 127.0.0.1 - - [13/May/2025 16:00:27] "[32mGET /next-game HTTP/1.1[0m" 302 -
+2025-05-13 16:06:10 - 127.0.0.1 - - [13/May/2025 16:06:10] "GET / HTTP/1.1" 200 -
+2025-05-13 16:06:10 - 127.0.0.1 - - [13/May/2025 16:06:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:06:13 - Guess #1: SIERS (Word: SĀKUM)
+2025-05-13 16:06:13 - Result: [{'letter': 'S', 'status': 'correct'}, {'letter': 'I', 'status': 'incorrect'}, {'letter': 'E', 'status': 'incorrect'}, {'letter': 'R', 'status': 'incorrect'}, {'letter': 'S', 'status': 'incorrect'}]
+2025-05-13 16:06:13 - 127.0.0.1 - - [13/May/2025 16:06:13] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:06:13 - 127.0.0.1 - - [13/May/2025 16:06:13] "GET / HTTP/1.1" 200 -
+2025-05-13 16:06:13 - 127.0.0.1 - - [13/May/2025 16:06:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:06:20 - Guess #2: BINGO (Word: SĀKUM)
+2025-05-13 16:06:20 - Result: [{'letter': 'B', 'status': 'incorrect'}, {'letter': 'I', 'status': 'incorrect'}, {'letter': 'N', 'status': 'incorrect'}, {'letter': 'G', 'status': 'incorrect'}, {'letter': 'O', 'status': 'incorrect'}]
+2025-05-13 16:06:20 - 127.0.0.1 - - [13/May/2025 16:06:20] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:06:20 - 127.0.0.1 - - [13/May/2025 16:06:20] "GET / HTTP/1.1" 200 -
+2025-05-13 16:06:20 - 127.0.0.1 - - [13/May/2025 16:06:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:06:30 - Guess #3: SĀKUM (Word: SĀKUM)
+2025-05-13 16:06:30 - Result: [{'letter': 'S', 'status': 'correct'}, {'letter': 'Ā', 'status': 'correct'}, {'letter': 'K', 'status': 'correct'}, {'letter': 'U', 'status': 'correct'}, {'letter': 'M', 'status': 'correct'}]
+2025-05-13 16:06:30 - Game won! Score: 600
+2025-05-13 16:06:30 - 127.0.0.1 - - [13/May/2025 16:06:30] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:06:30 - 127.0.0.1 - - [13/May/2025 16:06:30] "GET / HTTP/1.1" 200 -
+2025-05-13 16:06:30 - 127.0.0.1 - - [13/May/2025 16:06:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:06:32 - New game started. Word: LAIVA
+2025-05-13 16:06:32 - 127.0.0.1 - - [13/May/2025 16:06:32] "[32mGET /next-game HTTP/1.1[0m" 302 -
+2025-05-13 16:06:32 - 127.0.0.1 - - [13/May/2025 16:06:32] "GET / HTTP/1.1" 200 -
+2025-05-13 16:06:32 - 127.0.0.1 - - [13/May/2025 16:06:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:06:35 - Guess #1: ASDAS (Word: LAIVA)
+2025-05-13 16:06:35 - Result: [{'letter': 'A', 'status': 'wrong-position'}, {'letter': 'S', 'status': 'incorrect'}, {'letter': 'D', 'status': 'incorrect'}, {'letter': 'A', 'status': 'wrong-position'}, {'letter': 'S', 'status': 'incorrect'}]
+2025-05-13 16:06:35 - 127.0.0.1 - - [13/May/2025 16:06:35] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:06:35 - 127.0.0.1 - - [13/May/2025 16:06:35] "GET / HTTP/1.1" 200 -
+2025-05-13 16:06:35 - 127.0.0.1 - - [13/May/2025 16:06:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:06:37 - Guess #2: ASFAS (Word: LAIVA)
+2025-05-13 16:06:37 - Result: [{'letter': 'A', 'status': 'wrong-position'}, {'letter': 'S', 'status': 'incorrect'}, {'letter': 'F', 'status': 'incorrect'}, {'letter': 'A', 'status': 'wrong-position'}, {'letter': 'S', 'status': 'incorrect'}]
+2025-05-13 16:06:37 - 127.0.0.1 - - [13/May/2025 16:06:37] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:06:37 - 127.0.0.1 - - [13/May/2025 16:06:37] "GET / HTTP/1.1" 200 -
+2025-05-13 16:06:37 - 127.0.0.1 - - [13/May/2025 16:06:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:06:38 - Guess #3: AFASF (Word: LAIVA)
+2025-05-13 16:06:38 - Result: [{'letter': 'A', 'status': 'wrong-position'}, {'letter': 'F', 'status': 'incorrect'}, {'letter': 'A', 'status': 'wrong-position'}, {'letter': 'S', 'status': 'incorrect'}, {'letter': 'F', 'status': 'incorrect'}]
+2025-05-13 16:06:38 - 127.0.0.1 - - [13/May/2025 16:06:38] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:06:38 - 127.0.0.1 - - [13/May/2025 16:06:38] "GET / HTTP/1.1" 200 -
+2025-05-13 16:06:39 - 127.0.0.1 - - [13/May/2025 16:06:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:06:40 - Guess #4: AFSSA (Word: LAIVA)
+2025-05-13 16:06:40 - Result: [{'letter': 'A', 'status': 'wrong-position'}, {'letter': 'F', 'status': 'incorrect'}, {'letter': 'S', 'status': 'incorrect'}, {'letter': 'S', 'status': 'incorrect'}, {'letter': 'A', 'status': 'correct'}]
+2025-05-13 16:06:40 - 127.0.0.1 - - [13/May/2025 16:06:40] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:06:40 - 127.0.0.1 - - [13/May/2025 16:06:40] "GET / HTTP/1.1" 200 -
+2025-05-13 16:06:40 - 127.0.0.1 - - [13/May/2025 16:06:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:06:42 - Guess #5: AFASF (Word: LAIVA)
+2025-05-13 16:06:42 - Result: [{'letter': 'A', 'status': 'wrong-position'}, {'letter': 'F', 'status': 'incorrect'}, {'letter': 'A', 'status': 'wrong-position'}, {'letter': 'S', 'status': 'incorrect'}, {'letter': 'F', 'status': 'incorrect'}]
+2025-05-13 16:06:42 - Game lost! Word was: LAIVA
+2025-05-13 16:06:42 - New game started. Word: SVECE
+2025-05-13 16:06:42 - 127.0.0.1 - - [13/May/2025 16:06:42] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:06:42 - 127.0.0.1 - - [13/May/2025 16:06:42] "GET / HTTP/1.1" 200 -
+2025-05-13 16:06:42 - 127.0.0.1 - - [13/May/2025 16:06:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:08:03 - Manual new game started
+2025-05-13 16:08:03 - New game started. Word: SĀLĪT
+2025-05-13 16:08:03 - 127.0.0.1 - - [13/May/2025 16:08:03] "[32mGET /new-game HTTP/1.1[0m" 302 -
+2025-05-13 16:08:04 - 127.0.0.1 - - [13/May/2025 16:08:04] "GET / HTTP/1.1" 200 -
+2025-05-13 16:08:04 - 127.0.0.1 - - [13/May/2025 16:08:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:08:05 - Manual new game started
+2025-05-13 16:08:05 - New game started. Word: BILDE
+2025-05-13 16:08:05 - 127.0.0.1 - - [13/May/2025 16:08:05] "[32mGET /new-game HTTP/1.1[0m" 302 -
+2025-05-13 16:08:05 - 127.0.0.1 - - [13/May/2025 16:08:05] "GET / HTTP/1.1" 200 -
+2025-05-13 16:08:05 - 127.0.0.1 - - [13/May/2025 16:08:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:09:42 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 16:09:42 - [33mPress CTRL+C to quit[0m
+2025-05-13 16:09:42 -  * Restarting with stat
+2025-05-13 16:09:42 -  * Debugger is active!
+2025-05-13 16:09:42 -  * Debugger PIN: 743-301-163
+2025-05-13 16:09:47 - Guess #1: BAILE (Word: BILDE)
+2025-05-13 16:09:47 - Result: [{'letter': 'B', 'status': 'correct'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'I', 'status': 'wrong-position'}, {'letter': 'L', 'status': 'wrong-position'}, {'letter': 'E', 'status': 'correct'}]
+2025-05-13 16:09:47 - 127.0.0.1 - - [13/May/2025 16:09:47] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:09:47 - 127.0.0.1 - - [13/May/2025 16:09:47] "GET / HTTP/1.1" 200 -
+2025-05-13 16:09:47 - 127.0.0.1 - - [13/May/2025 16:09:47] "GET /static/styles.css HTTP/1.1" 200 -
+2025-05-13 16:09:49 - Guess #2: AAAAA (Word: BILDE)
+2025-05-13 16:09:49 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}]
+2025-05-13 16:09:49 - 127.0.0.1 - - [13/May/2025 16:09:49] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:09:49 - 127.0.0.1 - - [13/May/2025 16:09:49] "GET / HTTP/1.1" 200 -
+2025-05-13 16:09:49 - 127.0.0.1 - - [13/May/2025 16:09:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:09:51 - Guess #3: SSSSS (Word: BILDE)
+2025-05-13 16:09:51 - Result: [{'letter': 'S', 'status': 'incorrect'}, {'letter': 'S', 'status': 'incorrect'}, {'letter': 'S', 'status': 'incorrect'}, {'letter': 'S', 'status': 'incorrect'}, {'letter': 'S', 'status': 'incorrect'}]
+2025-05-13 16:09:51 - 127.0.0.1 - - [13/May/2025 16:09:51] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:09:51 - 127.0.0.1 - - [13/May/2025 16:09:51] "GET / HTTP/1.1" 200 -
+2025-05-13 16:09:51 - 127.0.0.1 - - [13/May/2025 16:09:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:09:52 - Guess #4: SSSSS (Word: BILDE)
+2025-05-13 16:09:52 - Result: [{'letter': 'S', 'status': 'incorrect'}, {'letter': 'S', 'status': 'incorrect'}, {'letter': 'S', 'status': 'incorrect'}, {'letter': 'S', 'status': 'incorrect'}, {'letter': 'S', 'status': 'incorrect'}]
+2025-05-13 16:09:52 - 127.0.0.1 - - [13/May/2025 16:09:52] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:09:52 - 127.0.0.1 - - [13/May/2025 16:09:52] "GET / HTTP/1.1" 200 -
+2025-05-13 16:09:52 - 127.0.0.1 - - [13/May/2025 16:09:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:09:54 - Guess #5: SSSSS (Word: BILDE)
+2025-05-13 16:09:54 - Result: [{'letter': 'S', 'status': 'incorrect'}, {'letter': 'S', 'status': 'incorrect'}, {'letter': 'S', 'status': 'incorrect'}, {'letter': 'S', 'status': 'incorrect'}, {'letter': 'S', 'status': 'incorrect'}]
+2025-05-13 16:09:54 - Round lost. Lives remaining: 4
+2025-05-13 16:09:54 - 127.0.0.1 - - [13/May/2025 16:09:54] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:09:54 - 127.0.0.1 - - [13/May/2025 16:09:54] "GET / HTTP/1.1" 200 -
+2025-05-13 16:09:54 - 127.0.0.1 - - [13/May/2025 16:09:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:09:57 - New game started. Word: DRAUG
+2025-05-13 16:09:57 - 127.0.0.1 - - [13/May/2025 16:09:57] "[32mGET /next-game HTTP/1.1[0m" 302 -
+2025-05-13 16:09:57 - 127.0.0.1 - - [13/May/2025 16:09:57] "GET / HTTP/1.1" 200 -
+2025-05-13 16:09:57 - 127.0.0.1 - - [13/May/2025 16:09:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:01 - Guess #1: AAAAA (Word: DRAUG)
+2025-05-13 16:10:01 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'correct'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}]
+2025-05-13 16:10:01 - 127.0.0.1 - - [13/May/2025 16:10:01] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:01 - 127.0.0.1 - - [13/May/2025 16:10:01] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:01 - 127.0.0.1 - - [13/May/2025 16:10:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:02 - Guess #2: AAAAA (Word: DRAUG)
+2025-05-13 16:10:02 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'correct'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}]
+2025-05-13 16:10:02 - 127.0.0.1 - - [13/May/2025 16:10:02] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:02 - 127.0.0.1 - - [13/May/2025 16:10:02] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:02 - 127.0.0.1 - - [13/May/2025 16:10:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:03 - Guess #3: AAAAA (Word: DRAUG)
+2025-05-13 16:10:03 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'correct'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}]
+2025-05-13 16:10:03 - 127.0.0.1 - - [13/May/2025 16:10:03] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:03 - 127.0.0.1 - - [13/May/2025 16:10:03] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:03 - 127.0.0.1 - - [13/May/2025 16:10:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:05 - Guess #4: AAAAA (Word: DRAUG)
+2025-05-13 16:10:05 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'correct'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}]
+2025-05-13 16:10:05 - 127.0.0.1 - - [13/May/2025 16:10:05] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:05 - 127.0.0.1 - - [13/May/2025 16:10:05] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:06 - 127.0.0.1 - - [13/May/2025 16:10:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:07 - Guess #5: AAAAA (Word: DRAUG)
+2025-05-13 16:10:07 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'correct'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}]
+2025-05-13 16:10:07 - Round lost. Lives remaining: 3
+2025-05-13 16:10:07 - 127.0.0.1 - - [13/May/2025 16:10:07] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:07 - 127.0.0.1 - - [13/May/2025 16:10:07] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:07 - 127.0.0.1 - - [13/May/2025 16:10:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:08 - New game started. Word: KRĀSA
+2025-05-13 16:10:08 - 127.0.0.1 - - [13/May/2025 16:10:08] "[32mGET /next-game HTTP/1.1[0m" 302 -
+2025-05-13 16:10:08 - 127.0.0.1 - - [13/May/2025 16:10:08] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:08 - 127.0.0.1 - - [13/May/2025 16:10:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:10 - Guess #1: AAAAA (Word: KRĀSA)
+2025-05-13 16:10:10 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'correct'}]
+2025-05-13 16:10:10 - 127.0.0.1 - - [13/May/2025 16:10:10] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:10 - 127.0.0.1 - - [13/May/2025 16:10:10] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:10 - 127.0.0.1 - - [13/May/2025 16:10:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:11 - Guess #2: AAAAA (Word: KRĀSA)
+2025-05-13 16:10:11 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'correct'}]
+2025-05-13 16:10:11 - 127.0.0.1 - - [13/May/2025 16:10:11] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:11 - 127.0.0.1 - - [13/May/2025 16:10:11] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:11 - 127.0.0.1 - - [13/May/2025 16:10:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:12 - Guess #3: AAAAA (Word: KRĀSA)
+2025-05-13 16:10:12 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'correct'}]
+2025-05-13 16:10:12 - 127.0.0.1 - - [13/May/2025 16:10:12] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:12 - 127.0.0.1 - - [13/May/2025 16:10:12] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:12 - 127.0.0.1 - - [13/May/2025 16:10:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:13 - Guess #4: AAAAA (Word: KRĀSA)
+2025-05-13 16:10:13 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'correct'}]
+2025-05-13 16:10:13 - 127.0.0.1 - - [13/May/2025 16:10:13] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:13 - 127.0.0.1 - - [13/May/2025 16:10:13] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:13 - 127.0.0.1 - - [13/May/2025 16:10:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:14 - Guess #5: AAAAA (Word: KRĀSA)
+2025-05-13 16:10:14 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'correct'}]
+2025-05-13 16:10:14 - Round lost. Lives remaining: 2
+2025-05-13 16:10:14 - 127.0.0.1 - - [13/May/2025 16:10:14] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:14 - 127.0.0.1 - - [13/May/2025 16:10:14] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:14 - 127.0.0.1 - - [13/May/2025 16:10:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:16 - New game started. Word: DRAUG
+2025-05-13 16:10:16 - 127.0.0.1 - - [13/May/2025 16:10:16] "[32mGET /next-game HTTP/1.1[0m" 302 -
+2025-05-13 16:10:16 - 127.0.0.1 - - [13/May/2025 16:10:16] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:16 - 127.0.0.1 - - [13/May/2025 16:10:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:24 - Guess #1: DRAUG (Word: DRAUG)
+2025-05-13 16:10:24 - Result: [{'letter': 'D', 'status': 'correct'}, {'letter': 'R', 'status': 'correct'}, {'letter': 'A', 'status': 'correct'}, {'letter': 'U', 'status': 'correct'}, {'letter': 'G', 'status': 'correct'}]
+2025-05-13 16:10:24 - Game won! Score: 500
+2025-05-13 16:10:24 - 127.0.0.1 - - [13/May/2025 16:10:24] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:24 - 127.0.0.1 - - [13/May/2025 16:10:24] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:24 - 127.0.0.1 - - [13/May/2025 16:10:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:26 - New game started. Word: ZIRGS
+2025-05-13 16:10:26 - 127.0.0.1 - - [13/May/2025 16:10:26] "[32mGET /next-game HTTP/1.1[0m" 302 -
+2025-05-13 16:10:26 - 127.0.0.1 - - [13/May/2025 16:10:26] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:26 - 127.0.0.1 - - [13/May/2025 16:10:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:28 - Guess #1: AAAAA (Word: ZIRGS)
+2025-05-13 16:10:28 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}]
+2025-05-13 16:10:28 - 127.0.0.1 - - [13/May/2025 16:10:28] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:28 - 127.0.0.1 - - [13/May/2025 16:10:28] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:28 - 127.0.0.1 - - [13/May/2025 16:10:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:29 - Guess #2: AAAAA (Word: ZIRGS)
+2025-05-13 16:10:29 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}]
+2025-05-13 16:10:29 - 127.0.0.1 - - [13/May/2025 16:10:29] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:29 - 127.0.0.1 - - [13/May/2025 16:10:29] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:29 - 127.0.0.1 - - [13/May/2025 16:10:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:30 - Guess #3: AAAAA (Word: ZIRGS)
+2025-05-13 16:10:30 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}]
+2025-05-13 16:10:30 - 127.0.0.1 - - [13/May/2025 16:10:30] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:30 - 127.0.0.1 - - [13/May/2025 16:10:30] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:30 - 127.0.0.1 - - [13/May/2025 16:10:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:31 - Guess #4: AAAAA (Word: ZIRGS)
+2025-05-13 16:10:31 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}]
+2025-05-13 16:10:31 - 127.0.0.1 - - [13/May/2025 16:10:31] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:31 - 127.0.0.1 - - [13/May/2025 16:10:31] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:31 - 127.0.0.1 - - [13/May/2025 16:10:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:32 - Guess #5: AAAAA (Word: ZIRGS)
+2025-05-13 16:10:32 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}]
+2025-05-13 16:10:32 - Round lost. Lives remaining: 1
+2025-05-13 16:10:32 - 127.0.0.1 - - [13/May/2025 16:10:32] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:32 - 127.0.0.1 - - [13/May/2025 16:10:32] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:32 - 127.0.0.1 - - [13/May/2025 16:10:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:33 - New game started. Word: SVECE
+2025-05-13 16:10:33 - 127.0.0.1 - - [13/May/2025 16:10:33] "[32mGET /next-game HTTP/1.1[0m" 302 -
+2025-05-13 16:10:33 - 127.0.0.1 - - [13/May/2025 16:10:33] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:33 - 127.0.0.1 - - [13/May/2025 16:10:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:35 - Guess #1: AAAAA (Word: SVECE)
+2025-05-13 16:10:35 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}]
+2025-05-13 16:10:35 - 127.0.0.1 - - [13/May/2025 16:10:35] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:35 - 127.0.0.1 - - [13/May/2025 16:10:35] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:35 - 127.0.0.1 - - [13/May/2025 16:10:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:36 - Guess #2: AAAAA (Word: SVECE)
+2025-05-13 16:10:36 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}]
+2025-05-13 16:10:36 - 127.0.0.1 - - [13/May/2025 16:10:36] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:36 - 127.0.0.1 - - [13/May/2025 16:10:36] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:36 - 127.0.0.1 - - [13/May/2025 16:10:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:37 - Guess #3: AAAAA (Word: SVECE)
+2025-05-13 16:10:37 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}]
+2025-05-13 16:10:37 - 127.0.0.1 - - [13/May/2025 16:10:37] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:37 - 127.0.0.1 - - [13/May/2025 16:10:37] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:37 - 127.0.0.1 - - [13/May/2025 16:10:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:39 - Guess #4: AAAAA (Word: SVECE)
+2025-05-13 16:10:39 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}]
+2025-05-13 16:10:39 - 127.0.0.1 - - [13/May/2025 16:10:39] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:39 - 127.0.0.1 - - [13/May/2025 16:10:39] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:39 - 127.0.0.1 - - [13/May/2025 16:10:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 16:10:40 - Guess #5: AAAAA (Word: SVECE)
+2025-05-13 16:10:40 - Result: [{'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}, {'letter': 'A', 'status': 'incorrect'}]
+2025-05-13 16:10:40 - Game lost! Word was: SVECE
+2025-05-13 16:10:40 - 127.0.0.1 - - [13/May/2025 16:10:40] "[32mPOST /guess HTTP/1.1[0m" 302 -
+2025-05-13 16:10:40 - 127.0.0.1 - - [13/May/2025 16:10:40] "GET / HTTP/1.1" 200 -
+2025-05-13 16:10:40 - 127.0.0.1 - - [13/May/2025 16:10:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -

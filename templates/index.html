@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lingo Spēle</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Lingo</h1>
+        
+        <div class="game-info">
+            <div class="lives">Dzīvības: {{ session.lives }}</div>
+            <div class="score">Punkti: {{ session.score }}</div>
+        </div>
+
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="flash-message">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <div id="game-board">
+            {% for row in range(5) %}
+                <div class="game-row">
+                    {% for col in range(5) %}
+                        <div class="letter-box
+                            {% if row < session.current_row %}
+                                {% if session['won'] and row == session.current_row - 1 %}
+                                    correct
+                                {% elif session.guesses[row][col].status == 'correct' %}
+                                    correct
+                                {% elif session.guesses[row][col].status == 'wrong-position' %}
+                                    wrong-position
+                                {% else %}
+                                    incorrect
+                                {% endif %}
+                            {% endif %}
+                        ">
+                            {% if row == 0 and col == 0 %}
+                                {{ session.current_word[0] }}
+                            {% elif row < session.current_row %}
+                                {{ session.guesses[row][col].letter }}
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </div>
+
+        {% if session.get('game_over') %}
+            <div class="gameover-display">
+                <h2>Spēle beigusies!</h2>
+                <p>Punkti: <strong>{{ session.game_over_score }}</strong></p>
+                <p>Pareizi uzminētie vārdi: <strong>{{ session.game_over_words_guessed }}</strong></p>
+                <p>Pēdējais vārds bija: <strong>{{ session.game_over_word }}</strong></p>
+                <a href="{{ url_for('new_game') }}" class="play-again-button">Jauna spēle</a>
+            </div>
+        {% elif session.get('won') %}
+            <div class="winning-display">
+                <div class="winning-word">
+                    {% for letter in session.current_word %}
+                        <div class="letter-box correct">{{ letter }}</div>
+                    {% endfor %}
+                </div>
+                <a href="{{ url_for('next_game') }}" class="play-again-button">Nākamais vārds</a>
+            </div>
+        {% elif session.get('lost_word') %}
+            <div class="winning-display">
+                <div class="winning-word">
+                    {% for letter in session.lost_word_answer %}
+                        <div class="letter-box correct">{{ letter }}</div>
+                    {% endfor %}
+                </div>
+                <a href="{{ url_for('next_game') }}" class="play-again-button">Nākamais vārds</a>
+            </div>
+        {% elif session.current_row < 5 and session.lives > 0 %}
+            <form action="{{ url_for('make_guess') }}" method="post" class="input-section">
+                <input type="text" name="guess" maxlength="5" placeholder="Ievadiet vārdu..." required
+                       pattern="[A-Za-zĀāČčĒēĢģĪīĶķĻļŅņŠšŪūŽž]{5}"
+                       title="Lūdzu ievadiet 5 burtus">
+                <button type="submit">Mēģināt</button>
+            </form>
+        {% endif %}
+
+        <div class="used-letters">
+            <h3>Izmantotie burti:</h3>
+            <div id="used-letters-display">
+                {% for letter in session.used_letters|sort %}
+                    <span class="used-letter">{{ letter }}</span>
+                {% endfor %}
+            </div>
+        </div>
+
+        <a href="{{ url_for('new_game') }}" class="new-game-button">Jauna spēle</a>
+    </div>
+</body>
+</html> 
